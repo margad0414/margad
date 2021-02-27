@@ -1,0 +1,265 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+
+}
+.grid, .grid3{
+    display: grid;
+    top: 70px;
+    position: relative;
+    background-color:rgb(243, 239, 239);
+}
+.main{
+    position: sticky;
+}
+
+#menu{
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.08);
+    display: inline-block;
+    position: relative;
+    
+}
+
+    .searchbar{
+        position: relative;
+        background: #f5f7f6;
+        display: flex;
+        width: 300px;
+        margin: 12px 6px;
+        float: right;
+        background: #f5f7f6;
+        border-radius: 18px;
+        width: 300px;
+        height: 36px;
+
+        
+        
+    }
+    .searchsvg{
+        margin-right: 1rem;
+        margin-top: 1%;
+
+        }
+    .brands{
+        display: inline-block;
+        position: relative;
+        font-size: 1rem;
+        color: #000;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        line-height: 18px;
+        font-weight: 400;
+        padding: 5px 16px;
+        margin-top: 2%;
+        margin-left: 1%;
+        
+        
+    }
+    .brands:hover{
+        background-color: rgba(248, 248, 248, 0.911);
+        border: 1px solid #fff;
+        border-radius: 24px;
+    }
+    .gobinow{
+        display: inline-block;
+        font-size: 1rem;
+        color: #000;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        line-height: 18px;
+        font-weight: 400;
+        padding: 5px 16px;
+        margin-top: 10px;
+        margin-left: 1%;
+    }
+    .gobinow:hover{
+        background-color: rgba(248, 248, 248, 0.911);
+        border: 1px solid #fff;
+        border-radius: 24px;
+    }
+    .sidenav{
+        display: inline-block;
+        font-size: 1rem;
+        color: #000;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        line-height: 18px;
+        font-weight: 400;
+        padding: 5px 16px;
+        cursor: pointer;
+    }
+    .sidenav :hover{
+        background-color: rgba(248, 248, 248, 0.911);
+    }
+    .sidenav p{
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    .logo{
+        display: inline-block;
+        text-align: center;
+        margin-left: 30%;
+        position: absolute;
+        top: 3%;
+    }
+    .search{
+        width: 100%;
+        font-size: 12px;
+        line-height: 14px;
+        background: transparent;
+        color: #943737;
+        border: none;
+        outline: none;
+        letter-spacing: 0.08em;
+
+    }
+   
+
+
+#shoppybtn{
+    position: relative;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 24px;
+    padding: 15px 55px;
+    text-transform: uppercase;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    background-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1rem;
+
+}
+#shoppybtn:hover, .shoppybtn:active{
+    background-color: rgb(92, 92, 92);
+    color: #ffffff;
+    transition-duration: 0.6s;
+    display: block;
+    
+    
+}
+
+
+
+input::placeholder {
+    padding: 10px;
+}
+
+@media screen and (max-width: 760px;){
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shoppy{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 70% 30%;
+    margin: auto;
+}
+.shoppyP{
+    margin: auto;    
+    position: relative;
+}
+
+.grid2{
+    margin-top: 7rem;
+}
+    .gobinowgrid{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+    }
+    .gobinowgridP{
+        margin: auto;
+        position: relative;
+        margin-left: 2rem;
+        text-align: center;
+        color: rgb(78, 78, 78);
+        order: 1;
+    }
+    .shoppygrid2{
+        order: 2;
+    }
+    .gobinowgridP h1{
+        font-size: 4rem;
+    }
+    .gobinowgridP p{
+        font-size: 1rem;
+    }
+
+.aboutUs{
+        margin-top: 7rem;
+        margin-left: auto;
+        position: relative;
+        width: 80%;
+}
+.aboutUsP{
+    color:  white;
+    position: absolute;
+    top: 40%;
+    width: 60%;
+    margin-left: 7rem;
+    text-align: center;
+}
+    .aboutUsP h1{
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .aboutUsP p{
+        margin-bottom: 8rem;
+        width: 60%;
+        text-align: center;
+        margin: auto;
+    }
+    .aboutUsP a{
+        margin-top: 2rem;
+    }
+.slideCon2{
+    width: 100%; 
+    margin: auto;
+    overflow: hidden;
+    height: 40rem;
+    
+}
+    .slideImg2{
+        display: flex;
+        width: 100%;
+        height: auto;
+        object-fit: fill;
+    }
+    .slideImg2 > img {
+        background-size: 100%;
+        background-position: center;
+    }
+.location{
+    position: relative;
+    display: grid;
+    width: 80%;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+    
+}
+    .locationP{
+        display: inline-block;
+        margin: auto;
+        text-transform: uppercase;  
+        font: 1em sans-serif;
+        order: 1;
+    }
+    .locationIMG{
+        width: 100%;
+        order: 2;
+    }
+
